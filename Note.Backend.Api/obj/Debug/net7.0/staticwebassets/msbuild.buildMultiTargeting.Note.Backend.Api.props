@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Note.Backend.Api.props" />
+</Project>

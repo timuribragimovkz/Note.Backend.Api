@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Note.Backend.Domain.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Note.Backend.Domain.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Note.Backend.Domain.Common.dll": {}
+        }
+      },
+      "Note.Backend.Domain.Ingredients/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Note.Backend.Domain.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Note.Backend.Domain.Ingredients.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Note.Backend.Domain.Ingredients.dll": {}
+        }
+      },
+      "Note.Backend.Domain.NutritionData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Note.Backend.Domain.Ingredients": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Note.Backend.Domain.NutritionData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Note.Backend.Domain.NutritionData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Note.Backend.Domain.Common/1.0.0": {
+      "type": "project",
+      "path": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj",
+      "msbuildProject": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
+    },
+    "Note.Backend.Domain.Ingredients/1.0.0": {
+      "type": "project",
+      "path": "../Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj",
+      "msbuildProject": "../Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj"
+    },
+    "Note.Backend.Domain.NutritionData/1.0.0": {
+      "type": "project",
+      "path": "../Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj",
+      "msbuildProject": "../Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Note.Backend.Domain.Common >= 1.0.0",
+      "Note.Backend.Domain.Ingredients >= 1.0.0",
+      "Note.Backend.Domain.NutritionData >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/timuribragimov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj",
+      "projectName": "Note.Backend.Domain.Recipe",
+      "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj",
+      "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+      "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj": {
+              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
+            },
+            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj": {
+              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj"
+            },
+            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj": {
+              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

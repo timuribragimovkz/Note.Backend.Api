@@ -1,0 +1,11 @@
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/bin/Debug/net7.0/Note.Backend.Domain.Common.deps.json
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/bin/Debug/net7.0/Note.Backend.Domain.Common.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/bin/Debug/net7.0/Note.Backend.Domain.Common.pdb
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/Note.Backend.Domain.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/Note.Backend.Domain.Common.AssemblyInfoInputs.cache
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/Note.Backend.Domain.Common.AssemblyInfo.cs
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/Note.Backend.Domain.Common.csproj.CoreCompileInputs.cache
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/Note.Backend.Domain.Common.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/refint/Note.Backend.Domain.Common.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/Note.Backend.Domain.Common.pdb
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/Debug/net7.0/ref/Note.Backend.Domain.Common.dll

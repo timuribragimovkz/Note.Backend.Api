@@ -1,0 +1,17 @@
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/bin/Debug/net7.0/Note.Backend.Domain.NutritionData.deps.json
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/bin/Debug/net7.0/Note.Backend.Domain.NutritionData.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/bin/Debug/net7.0/Note.Backend.Domain.NutritionData.pdb
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/bin/Debug/net7.0/Note.Backend.Domain.Ingredients.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/bin/Debug/net7.0/Note.Backend.Domain.Ingredients.pdb
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.csproj.AssemblyReference.cache
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.AssemblyInfoInputs.cache
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.AssemblyInfo.cs
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.csproj.CoreCompileInputs.cache
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.csproj.CopyComplete
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/refint/Note.Backend.Domain.NutritionData.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/Note.Backend.Domain.NutritionData.pdb
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/Debug/net7.0/ref/Note.Backend.Domain.NutritionData.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/bin/Debug/net7.0/Note.Backend.Domain.Common.dll
+/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/bin/Debug/net7.0/Note.Backend.Domain.Common.pdb

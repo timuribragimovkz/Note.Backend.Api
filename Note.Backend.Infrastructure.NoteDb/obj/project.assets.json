@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Note.Backend.Domain.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Note.Backend.Domain.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Note.Backend.Domain.Common.dll": {}
+        }
+      },
+      "Note.Backend.Domain.Note/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
+        }
+      },
+      "Note.Backend.Infrastructure.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Note.Backend.Domain.Common": "1.0.0",
+          "Note.Backend.Domain.Note": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Note.Backend.Infrastructure.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Note.Backend.Infrastructure.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Note.Backend.Domain.Common/1.0.0": {
+      "type": "project",
+      "path": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj",
+      "msbuildProject": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
+    },
+    "Note.Backend.Domain.Note/1.0.0": {
+      "type": "project",
+      "path": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj",
+      "msbuildProject": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj"
+    },
+    "Note.Backend.Infrastructure.Common/1.0.0": {
+      "type": "project",
+      "path": "../Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj",
+      "msbuildProject": "../Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Note.Backend.Domain.Note >= 1.0.0",
+      "Note.Backend.Infrastructure.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/timuribragimov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/Note.Backend.Infrastructure.NoteDb.csproj",
+      "projectName": "Note.Backend.Infrastructure.NoteDb",
+      "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/Note.Backend.Infrastructure.NoteDb.csproj",
+      "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+      "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj": {
+              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj"
+            },
+            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj": {
+              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

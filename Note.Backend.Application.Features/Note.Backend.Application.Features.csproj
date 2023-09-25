@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj" />
+      <ProjectReference Include="..\Note.Backend.Infrastructure.Note.SQLServer\Note.Backend.Infrastructure.SQLServer.csproj" />
+    </ItemGroup>
+
+
+
+    <ItemGroup>
+      <Reference Include="Note.Backend.Infrastructure.SQLServer"/>      
+      
+    </ItemGroup>
+
+</Project>

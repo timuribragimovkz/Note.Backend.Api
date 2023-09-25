@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Note.Backend.Domain.NutritionData/1.0.0": {
+        "dependencies": {
+          "Note.Backend.Domain.Ingredients": "1.0.0"
+        },
+        "runtime": {
+          "Note.Backend.Domain.NutritionData.dll": {}
+        }
+      },
+      "Note.Backend.Domain.Common/1.0.0": {
+        "runtime": {
+          "Note.Backend.Domain.Common.dll": {}
+        }
+      },
+      "Note.Backend.Domain.Ingredients/1.0.0": {
+        "dependencies": {
+          "Note.Backend.Domain.Common": "1.0.0"
+        },
+        "runtime": {
+          "Note.Backend.Domain.Ingredients.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Note.Backend.Domain.NutritionData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Note.Backend.Domain.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Note.Backend.Domain.Ingredients/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

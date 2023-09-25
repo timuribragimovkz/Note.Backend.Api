@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Note.Backend.Domain.Common\Note.Backend.Domain.Common.csproj" />
+    <ProjectReference Include="..\Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj" />
+    <ProjectReference Include="..\Note.Backend.Domain.NutritionData\Note.Backend.Domain.NutritionData.csproj" />
+  </ItemGroup>
+
+
+</Project>
