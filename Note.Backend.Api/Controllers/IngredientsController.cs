@@ -2,6 +2,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Note.Backend.Application.Features.RecipeIngredient.Create;
 using Note.Backend.Application.Features.RecipeIngredient.Edit;
+using Note.Backend.Application.Features.RecipeIngredient.GetAllRetrieve;
 using Note.Backend.Application.Features.RecipeIngredient.Retrieve;
 
 namespace Note.Backend.Api.Controllers;
@@ -30,9 +31,17 @@ public class IngredientsController  : ControllerBase
     {
         return await _mediator.Send(request);
     }
+    
     [Route("GetRecipeIngredientById")]
     [HttpPost]
     public async Task<IngredientRetrieverResponse> GetRecipeIngredientById(IngredientRetrieverRequest request)
+    {
+        return await _mediator.Send(request);
+    }
+    
+    [Route("GetAllRecipeIngredients")]
+    [HttpPost]
+    public async Task<GetAllIngredientRetrieverResponse> GetAllRecipeIngredients(GetAllIngredientRetrieverRequest request)
     {
         return await _mediator.Send(request);
     }

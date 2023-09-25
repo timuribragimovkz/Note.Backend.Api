@@ -1,6 +1,7 @@
 using Note.Backend.Application.Services.Common;
 using Note.Backend.Infrastructure.NoteDb.Common;
-using Note.Backend.Infrastructure.SQLServer.DataBase;
+using Note.Backend.Infrastructure.SQLServer.Repositories;
+using Note.Backend.Infrastructure.SQLServer.Repositories.Ingredients;
 
 namespace Note.Backend.Api.StartupExtensions;
 

@@ -1,5 +1,5 @@
 using MediatR;
-using Note.Backend.Infrastructure.SQLServer.DataBase;
+using Note.Backend.Infrastructure.SQLServer.Repositories.Ingredients;
 
 namespace Note.Backend.Application.Features.RecipeIngredient.Create;
 
