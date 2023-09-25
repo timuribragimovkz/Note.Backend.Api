@@ -1,3 +1,3 @@
 namespace Note.Backend.Application.Features.RecipeIngredient.Edit;
 
-public record IngredientEditorResponse(bool IsUpdated);
+public record IngredientEditorResponse(string Id);
