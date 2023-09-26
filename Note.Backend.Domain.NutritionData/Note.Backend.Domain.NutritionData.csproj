@@ -6,11 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-
     <ItemGroup>
       <ProjectReference Include="..\Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj" />
     </ItemGroup>
-
-
 
 </Project>

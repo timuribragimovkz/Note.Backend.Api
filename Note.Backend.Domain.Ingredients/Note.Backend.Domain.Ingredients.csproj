@@ -8,7 +8,6 @@
     </PropertyGroup>
 
 
-
     <ItemGroup>
       <ProjectReference Include="..\Note.Backend.Domain.Common\Note.Backend.Domain.Common.csproj" />
     </ItemGroup>

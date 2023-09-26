@@ -15,14 +15,4 @@
       <ProjectReference Include="..\Note.Backend.Infrastructure.Note.SQLServer\Note.Backend.Infrastructure.SQLServer.csproj" />
     </ItemGroup>
 
-
-
-    <ItemGroup>
-      <Reference Include="Note.Backend.Infrastructure.SQLServer"/>      
-      
-    </ItemGroup>
-
-
-
-
 </Project>

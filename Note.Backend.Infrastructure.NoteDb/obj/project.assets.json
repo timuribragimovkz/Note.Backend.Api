@@ -1,65 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Note.Backend.Domain.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Note.Backend.Domain.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Note.Backend.Domain.Common.dll": {}
-        }
-      },
-      "Note.Backend.Domain.Note/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
-        }
-      },
-      "Note.Backend.Infrastructure.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Note.Backend.Domain.Common": "1.0.0",
-          "Note.Backend.Domain.Note": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Note.Backend.Infrastructure.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Note.Backend.Infrastructure.Common.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Note.Backend.Domain.Common/1.0.0": {
-      "type": "project",
-      "path": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj",
-      "msbuildProject": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
-    },
-    "Note.Backend.Domain.Note/1.0.0": {
-      "type": "project",
-      "path": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj",
-      "msbuildProject": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj"
-    },
-    "Note.Backend.Infrastructure.Common/1.0.0": {
-      "type": "project",
-      "path": "../Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj",
-      "msbuildProject": "../Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Note.Backend.Domain.Note >= 1.0.0",
-      "Note.Backend.Infrastructure.Common >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "/Users/timuribragimov/.nuget/packages/": {}
@@ -85,14 +31,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj": {
-              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj"
-            },
-            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj": {
-              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

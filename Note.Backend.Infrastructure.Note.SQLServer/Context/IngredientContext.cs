@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Note.Backend.Infrastructure.Common.Models;
 using Note.Backend.Infrastructure.SQLServer.Models;
 
 namespace Note.Backend.Infrastructure.SQLServer.Context;

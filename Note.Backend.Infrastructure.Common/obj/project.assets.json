@@ -11,16 +11,6 @@
         "runtime": {
           "bin/placeholder/Note.Backend.Domain.Common.dll": {}
         }
-      },
-      "Note.Backend.Domain.Note/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
-        }
       }
     }
   },
@@ -29,17 +19,11 @@
       "type": "project",
       "path": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj",
       "msbuildProject": "../Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
-    },
-    "Note.Backend.Domain.Note/1.0.0": {
-      "type": "project",
-      "path": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj",
-      "msbuildProject": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Note.Backend.Domain.Common >= 1.0.0",
-      "Note.Backend.Domain.Note >= 1.0.0"
+      "Note.Backend.Domain.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -69,9 +53,6 @@
           "projectReferences": {
             "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj": {
               "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
-            },
-            "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj": {
-              "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj"
             }
           }
         }

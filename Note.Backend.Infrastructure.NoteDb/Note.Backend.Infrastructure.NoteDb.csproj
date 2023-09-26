@@ -8,13 +8,6 @@
 
 
 
-    <ItemGroup>
-      <ProjectReference Include="..\Note.Backend.Domain.Note\Note.Backend.Domain.Note.csproj" />
-      <ProjectReference Include="..\Note.Backend.Infrastructure.Common\Note.Backend.Infrastructure.Common.csproj" />
-    </ItemGroup>
-
-
-
 
 
 

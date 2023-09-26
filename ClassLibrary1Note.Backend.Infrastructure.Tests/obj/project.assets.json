@@ -2804,22 +2804,11 @@
           "bin/placeholder/Note.Backend.Domain.Ingredients.dll": {}
         }
       },
-      "Note.Backend.Domain.Note/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Note.Backend.Domain.Note.dll": {}
-        }
-      },
       "Note.Backend.Infrastructure.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Note.Backend.Domain.Common": "1.0.0",
-          "Note.Backend.Domain.Note": "1.0.0"
+          "Note.Backend.Domain.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Note.Backend.Infrastructure.Common.dll": {}
@@ -8394,11 +8383,6 @@
       "type": "project",
       "path": "../Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj",
       "msbuildProject": "../Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj"
-    },
-    "Note.Backend.Domain.Note/1.0.0": {
-      "type": "project",
-      "path": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj",
-      "msbuildProject": "../Note.Backend.Domain.Note/Note.Backend.Domain.Note.csproj"
     },
     "Note.Backend.Infrastructure.Common/1.0.0": {
       "type": "project",

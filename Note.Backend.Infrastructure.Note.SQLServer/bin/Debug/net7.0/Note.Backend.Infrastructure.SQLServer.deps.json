@@ -731,8 +731,7 @@
       },
       "Note.Backend.Infrastructure.Common/1.0.0": {
         "dependencies": {
-          "Note.Backend.Domain.Common": "1.0.0",
-          "Note.Backend.Domain.Note": "1.0.0"
+          "Note.Backend.Domain.Common": "1.0.0"
         },
         "runtime": {
           "Note.Backend.Infrastructure.Common.dll": {}

@@ -33,17 +33,11 @@ C:/Users/USER/source/repos/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/b
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/bin/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.deps.json
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/bin/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.dll
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/bin/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.pdb
-/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/bin/Debug/net7.0/Note.Backend.Infrastructure.Common.dll
-/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/bin/Debug/net7.0/Note.Backend.Infrastructure.Common.pdb
-/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.csproj.AssemblyReference.cache
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.GeneratedMSBuildEditorConfig.editorconfig
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.AssemblyInfoInputs.cache
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.AssemblyInfo.cs
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.csproj.CoreCompileInputs.cache
-/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.csproj.CopyComplete
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.dll
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/refint/Note.Backend.Infrastructure.NoteDb.dll
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/Note.Backend.Infrastructure.NoteDb.pdb
 /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/Debug/net7.0/ref/Note.Backend.Infrastructure.NoteDb.dll
-/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/bin/Debug/net7.0/Note.Backend.Domain.Common.dll
-/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/bin/Debug/net7.0/Note.Backend.Domain.Common.pdb

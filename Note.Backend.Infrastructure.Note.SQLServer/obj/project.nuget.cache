@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LCgoPcQYqXWCNgu2Cv+kTXQx6BOjIoLJtRFrs0cfJOoFjG3j2GnPb8UR94LbcWYl1P0QLYBzOiG3VH+oyUeNYA==",
+  "dgSpecHash": "uhZWF4CgvattM98x3WxybEUhuJhT/GlCd3mf7uVTAL1n/cLwkNKr9WLxt7nWTSWHnzILFmCe/hE5kAgd61vcjA==",
   "success": true,
   "projectFilePath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Note.SQLServer/Note.Backend.Infrastructure.SQLServer.csproj",
   "expectedPackageFiles": [

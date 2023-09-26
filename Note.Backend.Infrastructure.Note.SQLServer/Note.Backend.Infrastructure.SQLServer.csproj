@@ -13,13 +13,13 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0-rc.1.23419.4" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0-rc.1.23419.4" />
-  </ItemGroup>
-
+	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj" />
-		<ProjectReference Include="..\Note.Backend.Infrastructure.Common\Note.Backend.Infrastructure.Common.csproj" />
+	  <ProjectReference Include="..\Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj" />
+	  <ProjectReference Include="..\Note.Backend.Infrastructure.Common\Note.Backend.Infrastructure.Common.csproj" />
 	</ItemGroup>
+	
 
 
 

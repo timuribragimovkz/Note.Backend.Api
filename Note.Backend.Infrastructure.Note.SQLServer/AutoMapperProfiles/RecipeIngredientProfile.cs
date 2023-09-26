@@ -1,5 +1,5 @@
 using AutoMapper;
-using Note.Backend.Domain.Ingredients.Models;
+using Note.Backend.Infrastructure.SQLServer.Migrations;
 using Note.Backend.Infrastructure.SQLServer.Models;
 
 namespace Note.Backend.Infrastructure.SQLServer.AutoMapperProfiles;

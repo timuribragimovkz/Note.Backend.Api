@@ -7,11 +7,4 @@
     </PropertyGroup>
 
 
-
-    <ItemGroup>
-      <ProjectReference Include="..\Note.Backend.Domain.Note\Note.Backend.Domain.Note.csproj" />
-      <ProjectReference Include="..\Note.Backend.Infrastructure.Note.SQLServer\Note.Backend.Infrastructure.SQLServer.csproj" />
-      <ProjectReference Include="..\Note.Backend.Infrastructure.NoteDb\Note.Backend.Infrastructure.NoteDb.csproj" />
-    </ItemGroup>
-
 </Project>
