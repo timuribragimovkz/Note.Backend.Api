@@ -2,5 +2,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1ec2210d_002De8f0_002D4603_002Da476_002Dc20f466ec941/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::7E356DF7-183C-4CA6-A823-7A1DF12AC682::net7.0::ClassLibrary1Note.Backend.Infrastructure.Tests.UnitTest1.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2BED6F09-ADD7-45FA-93C6-3256F7A06EFC::net7.0::Note.Backend.Domain.Tests.NutritionDataTests.Ensure_NutritionDataCalculator_Returns_Expected_Result&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2BED6F09-ADD7-45FA-93C6-3256F7A06EFC::net7.0::Note.Backend.Domain.Tests.NutritionDataTests.Ensure_Throws_DomainException_When_Ingredient_Already_Exists&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

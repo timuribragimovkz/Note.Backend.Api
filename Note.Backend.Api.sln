@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1Note.Backend.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Infrastructure.SQLServer", "Note.Backend.Infrastructure.Note.SQLServer\Note.Backend.Infrastructure.SQLServer.csproj", "{86BC2499-8035-4650-9398-4BDAA2EA6052}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Domain.Tests", "Note.Backend.Domain.Tests\Note.Backend.Domain.Tests.csproj", "{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{86BC2499-8035-4650-9398-4BDAA2EA6052}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86BC2499-8035-4650-9398-4BDAA2EA6052}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86BC2499-8035-4650-9398-4BDAA2EA6052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{ED709CAF-43D2-414F-9638-10756ED317FF} = {E9D53164-3E8A-43E1-945D-192324DDE373}
 		{7E356DF7-183C-4CA6-A823-7A1DF12AC682} = {CB20F9B4-284D-41BE-90FA-5AB08D208DD2}
 		{86BC2499-8035-4650-9398-4BDAA2EA6052} = {CB20F9B4-284D-41BE-90FA-5AB08D208DD2}
+		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC} = {26D04A83-2177-47BB-8110-D9037686A95E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE98CEC8-9FE0-4933-A2E1-1074B7F8E57D}
