@@ -55,7 +55,21 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
 
         return _mapper.Map<TDomain>(foundDto);
     }
-    
+
+    public async Task<string> DeleteById(string id)
+    {
+        if (string.IsNullOrEmpty(id))
+        {
+            throw new InfrastructureException("Id not provided", ErrorCode.IdNotProvided);
+        }
+
+        var foundDto = await Table.FindAsync(id);
+        Table.Remove(foundDto);
+        await _dbContext.SaveChangesAsync();
+
+        return foundDto.Id;
+    }
+
     public async Task<List<TDomain>> GetAll()
     {
         return await Table.Select(x => _mapper.Map<TDomain>(x)).ToListAsync();

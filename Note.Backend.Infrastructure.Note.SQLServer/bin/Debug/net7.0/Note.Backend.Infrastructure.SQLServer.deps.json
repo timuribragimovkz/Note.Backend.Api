@@ -15,6 +15,7 @@
           "Microsoft.Extensions.Configuration": "8.0.0-rc.1.23419.4",
           "Microsoft.Extensions.Configuration.Json": "8.0.0-rc.1.23419.4",
           "Note.Backend.Domain.Ingredients": "1.0.0",
+          "Note.Backend.Domain.Recipe": "1.0.0",
           "Note.Backend.Infrastructure.Common": "1.0.0"
         },
         "runtime": {
@@ -125,22 +126,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           }
         }
       },
@@ -729,6 +730,24 @@
           "Note.Backend.Domain.Ingredients.dll": {}
         }
       },
+      "Note.Backend.Domain.NutritionData/1.0.0": {
+        "dependencies": {
+          "Note.Backend.Domain.Ingredients": "1.0.0"
+        },
+        "runtime": {
+          "Note.Backend.Domain.NutritionData.dll": {}
+        }
+      },
+      "Note.Backend.Domain.Recipe/1.0.0": {
+        "dependencies": {
+          "Note.Backend.Domain.Common": "1.0.0",
+          "Note.Backend.Domain.Ingredients": "1.0.0",
+          "Note.Backend.Domain.NutritionData": "1.0.0"
+        },
+        "runtime": {
+          "Note.Backend.Domain.Recipe.dll": {}
+        }
+      },
       "Note.Backend.Infrastructure.Common/1.0.0": {
         "dependencies": {
           "Note.Backend.Domain.Common": "1.0.0"
@@ -1213,6 +1232,16 @@
       "sha512": ""
     },
     "Note.Backend.Domain.Ingredients/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Note.Backend.Domain.NutritionData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Note.Backend.Domain.Recipe/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

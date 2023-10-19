@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace Note.Backend.Infrastructure.SQLServer.Context;
+namespace Note.Backend.Infrastructure.SQLServer.Context.Ingredient;
 
 public class IngredientContextFactory : IDesignTimeDbContextFactory<IngredientContext>
 {
@@ -20,9 +20,9 @@ public class IngredientContextFactory : IDesignTimeDbContextFactory<IngredientCo
         //         pathToUse = basePath;
         //     }
         // }
-        
+
         IConfiguration configuration = new ConfigurationBuilder()
-            .AddJsonFile("/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Api/appsettings.json")
+            .AddJsonFile("C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Api\\appsettings.json")
             .Build();
 
         var connectionString = configuration.GetConnectionString("IngredientDataDb");

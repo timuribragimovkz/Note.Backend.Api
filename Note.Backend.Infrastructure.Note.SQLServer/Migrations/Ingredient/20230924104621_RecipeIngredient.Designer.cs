@@ -2,17 +2,20 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Note.Backend.Infrastructure.SQLServer.Context;
+using Note.Backend.Infrastructure.SQLServer.Context.Ingredient;
 
 #nullable disable
 
 namespace Note.Backend.Infrastructure.SQLServer.Migrations
 {
     [DbContext(typeof(IngredientContext))]
-    partial class IngredientContextModelSnapshot : ModelSnapshot
+    [Migration("20230924104621_RecipeIngredient")]
+    partial class RecipeIngredient
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

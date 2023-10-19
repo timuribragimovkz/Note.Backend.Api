@@ -4,15 +4,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Note.Backend.Infrastructure.SQLServer.Context;
+using Note.Backend.Infrastructure.SQLServer.Context.Author;
 
 #nullable disable
 
-namespace Note.Backend.Infrastructure.SQLServer.Migrations
+namespace Note.Backend.Infrastructure.SQLServer.Migrations.Author
 {
-    [DbContext(typeof(IngredientContext))]
-    [Migration("20230924104621_RecipeIngredient")]
-    partial class RecipeIngredient
+    [DbContext(typeof(AuthorContext))]
+    [Migration("20231003105346_Authors")]
+    partial class Authors
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,32 +24,17 @@ namespace Note.Backend.Infrastructure.SQLServer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Note.Backend.Infrastructure.SQLServer.Models.RecipeIngredientDto", b =>
+            modelBuilder.Entity("Note.Backend.Infrastructure.SQLServer.Models.AuthorDto", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<double>("CarbohydratesPercentage")
-                        .HasColumnType("float");
-
-                    b.Property<double>("FatsPercentage")
-                        .HasColumnType("float");
-
-                    b.Property<byte>("IngredientType")
-                        .HasColumnType("tinyint");
-
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<double>("ProteinsPercentage")
-                        .HasColumnType("float");
-
-                    b.Property<double>("Weight")
-                        .HasColumnType("float");
-
                     b.HasKey("Id");
 
-                    b.ToTable("IngredientData", (string)null);
+                    b.ToTable("AuthorData", (string)null);
                 });
 #pragma warning restore 612, 618
         }

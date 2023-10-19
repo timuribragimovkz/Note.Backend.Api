@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Note.Backend.Infrastructure.SQLServer.Models;
 
-namespace Note.Backend.Infrastructure.SQLServer.Context;
+namespace Note.Backend.Infrastructure.SQLServer.Context.Ingredient;
 
 public class IngredientContext : DbContext
 {
@@ -15,7 +15,7 @@ public class IngredientContext : DbContext
     {
         modelBuilder.Entity<RecipeIngredientDto>()
             .ToTable("IngredientData");
-       
+
         modelBuilder.Entity<RecipeIngredientDto>()
             .Property(r => r.Name)
             .HasColumnType("nvarchar(255)");

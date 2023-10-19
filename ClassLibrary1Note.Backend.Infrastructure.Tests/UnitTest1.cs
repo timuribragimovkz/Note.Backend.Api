@@ -1,4 +1,5 @@
 using Note.Backend.Infrastructure.SQLServer.Context;
+using Note.Backend.Infrastructure.SQLServer.Context.Ingredient;
 
 namespace ClassLibrary1Note.Backend.Infrastructure.Tests;
 

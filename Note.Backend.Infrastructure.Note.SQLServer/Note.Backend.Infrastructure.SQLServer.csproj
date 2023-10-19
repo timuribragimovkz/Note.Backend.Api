@@ -17,6 +17,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj" />
+	  <ProjectReference Include="..\Note.Backend.Domain.Recipe\Note.Backend.Domain.Recipe.csproj" />
 	  <ProjectReference Include="..\Note.Backend.Infrastructure.Common\Note.Backend.Infrastructure.Common.csproj" />
 	</ItemGroup>
 	

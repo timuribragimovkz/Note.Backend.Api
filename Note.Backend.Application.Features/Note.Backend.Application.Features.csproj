@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
@@ -12,7 +12,13 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj" />
+      <ProjectReference Include="..\Note.Backend.Domain.Recipe\Note.Backend.Domain.Recipe.csproj" />
       <ProjectReference Include="..\Note.Backend.Infrastructure.Note.SQLServer\Note.Backend.Infrastructure.SQLServer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Recipe\Edit\" />
+      <Folder Include="Recipe\Remove\" />
     </ItemGroup>
 
 </Project>

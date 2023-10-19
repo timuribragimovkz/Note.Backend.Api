@@ -1,10 +1,11 @@
+using Note.Backend.Domain.Common.BaseModels;
 using Note.Backend.Domain.Ingredients.Models;
 using Note.Backend.Domain.NutritionData.Calculator;
 using Note.Backend.Domain.NutritionData.Models;
 
 namespace Note.Backend.Domain.Recipe.Models;
 
-public class RecipeNutritionData
+public class RecipeNutritionData : BaseDomainEntity
 {
     public int TotalProteinWeight { get; set; }
     public int TotalProteinCalories { get; set; }
