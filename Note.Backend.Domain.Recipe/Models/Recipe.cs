@@ -9,7 +9,7 @@ namespace Note.Backend.Domain.Recipe.Models;
 public class Recipe : BaseDomainEntity
 {
     public string Name { get; init; }
-    public Author Author { get; init; }
+    public Author Author { get; private set; }
     public string Description { get; private set; }
     public DateTime FirstPublicationDateTime { get; private set; }
     public DateTime LastUpdateDateTime { get; private set; }
@@ -38,6 +38,12 @@ public class Recipe : BaseDomainEntity
         Ingredients = ingredients;
     }
 
+    public void Assemble(List<RecipeIngredient> ingredients, Author author, RecipeNutritionData recipeNutritionData)
+    {
+        Ingredients = ingredients;
+        Author = author;
+        NutritionData = recipeNutritionData;
+    }
     public void AddIngredient(RecipeIngredient ingredient)
     {
         if (Ingredients.Any(x => x.Id == ingredient.Id))

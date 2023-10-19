@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Note.SQLServer\\Note.Backend.Infrastructure.SQLServer.csproj": {}
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Note.SQLServer/Note.Backend.Infrastructure.SQLServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj": {
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj",
+        "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj",
         "projectName": "Note.Backend.Domain.Common",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\obj\\",
+        "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj",
+        "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+        "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,36 +53,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj": {
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj",
+        "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj",
         "projectName": "Note.Backend.Domain.Ingredients",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\obj\\",
+        "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj",
+        "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+        "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
               }
             }
           }
@@ -114,36 +110,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.NutritionData\\Note.Backend.Domain.NutritionData.csproj": {
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.NutritionData\\Note.Backend.Domain.NutritionData.csproj",
+        "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj",
         "projectName": "Note.Backend.Domain.NutritionData",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.NutritionData\\Note.Backend.Domain.NutritionData.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.NutritionData\\obj\\",
+        "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj",
+        "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+        "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj"
               }
             }
           }
@@ -173,42 +167,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Recipe\\Note.Backend.Domain.Recipe.csproj": {
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Recipe\\Note.Backend.Domain.Recipe.csproj",
+        "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj",
         "projectName": "Note.Backend.Domain.Recipe",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Recipe\\Note.Backend.Domain.Recipe.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Recipe\\obj\\",
+        "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj",
+        "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+        "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
               },
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj"
               },
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.NutritionData\\Note.Backend.Domain.NutritionData.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.NutritionData\\Note.Backend.Domain.NutritionData.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.NutritionData/Note.Backend.Domain.NutritionData.csproj"
               }
             }
           }
@@ -238,36 +230,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Common\\Note.Backend.Infrastructure.Common.csproj": {
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Common\\Note.Backend.Infrastructure.Common.csproj",
+        "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj",
         "projectName": "Note.Backend.Infrastructure.Common",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Common\\Note.Backend.Infrastructure.Common.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Common\\obj\\",
+        "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj",
+        "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+        "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Common\\Note.Backend.Domain.Common.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Common/Note.Backend.Domain.Common.csproj"
               }
             }
           }
@@ -297,42 +287,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Note.SQLServer\\Note.Backend.Infrastructure.SQLServer.csproj": {
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Note.SQLServer/Note.Backend.Infrastructure.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Note.SQLServer\\Note.Backend.Infrastructure.SQLServer.csproj",
+        "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Note.SQLServer/Note.Backend.Infrastructure.SQLServer.csproj",
         "projectName": "Note.Backend.Infrastructure.SQLServer",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Note.SQLServer\\Note.Backend.Infrastructure.SQLServer.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Note.SQLServer\\obj\\",
+        "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Note.SQLServer/Note.Backend.Infrastructure.SQLServer.csproj",
+        "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+        "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Note.SQLServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Ingredients\\Note.Backend.Domain.Ingredients.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Ingredients/Note.Backend.Domain.Ingredients.csproj"
               },
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Recipe\\Note.Backend.Domain.Recipe.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Recipe\\Note.Backend.Domain.Recipe.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj"
               },
-              "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Common\\Note.Backend.Infrastructure.Common.csproj": {
-                "projectPath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Common\\Note.Backend.Infrastructure.Common.csproj"
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj"
+              },
+              "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/Note.Backend.Infrastructure.NoteDb.csproj": {
+                "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/Note.Backend.Infrastructure.NoteDb.csproj"
               }
             }
           }
@@ -388,7 +379,60 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/Note.Backend.Infrastructure.NoteDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/Note.Backend.Infrastructure.NoteDb.csproj",
+        "projectName": "Note.Backend.Infrastructure.NoteDb",
+        "projectPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/Note.Backend.Infrastructure.NoteDb.csproj",
+        "packagesPath": "/Users/timuribragimov/.nuget/packages/",
+        "outputPath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.NoteDb/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timuribragimov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

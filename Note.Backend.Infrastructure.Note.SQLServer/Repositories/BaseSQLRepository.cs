@@ -13,13 +13,13 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
     where TContext : DbContext
 
 {
-    private readonly DbContext _dbContext;
+    protected readonly DbContext DbContext;
     private readonly IMapper _mapper;
-    protected DbSet<TDto> Table => _dbContext.Set<TDto>();
+    protected DbSet<TDto> Table => DbContext.Set<TDto>();
 
     protected BaseSQLRepository(TContext context, IMapper mapper)
     {
-        _dbContext = context;
+        DbContext = context;
         _mapper = mapper;
     }
 
@@ -28,7 +28,7 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
         var dto = _mapper.Map<TDto>(model);
         await Table.AddAsync(dto);
 
-        await _dbContext.SaveChangesAsync();
+        await DbContext.SaveChangesAsync();
 
         return model.Id;
     }
@@ -65,7 +65,7 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
 
         var foundDto = await Table.FindAsync(id);
         Table.Remove(foundDto);
-        await _dbContext.SaveChangesAsync();
+        await DbContext.SaveChangesAsync();
 
         return foundDto.Id;
     }
@@ -88,7 +88,7 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
         //await _dbContext.SaveChangesAsync();
         
         var addResult = await Table.AddAsync(updateDto);
-        await _dbContext.SaveChangesAsync();
+        await DbContext.SaveChangesAsync();
         
         return addResult.Entity.Id;
     }

@@ -21,6 +21,6 @@ public class RecipeDto : BaseDto
     //public RecipeNutritionData NutritionData { get; private set; }
     public string IngredientID { get; private set; }
     public RecipeIngredientDto RecipeIngredientDto { get; private set; }
-    public List<RecipeIngredient> Ingredients { get; private set; }
+    public List<string> IngredientDtoIds { get; private set; }
     public int PortionQuantity { get; private set; } = 1;
 }
