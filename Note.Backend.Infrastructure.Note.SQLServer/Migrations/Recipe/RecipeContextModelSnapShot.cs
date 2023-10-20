@@ -51,7 +51,7 @@ namespace Note.Backend.Infrastructure.SQLServer.Migrations.Recipe
                 b.Property<string>("RecipeIngredientId")
                     .HasColumnType("nvarchar(450)");
 
-                b.Property<double>("PortionQuantity")
+                b.Property<int>("PortionQuantity")
                     .HasColumnType("tinyint");
 
                 b.HasKey("Id");

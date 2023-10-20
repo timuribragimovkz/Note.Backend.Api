@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Note.Backend.Infrastructure.SQLServer
-build_property.ProjectDir = /Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Note.SQLServer/
+build_property.ProjectDir = C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\Note.Backend.Infrastructure.Note.SQLServer\

@@ -11,15 +11,16 @@ public class RecipeContext : DbContext
 
     }
     public DbSet<RecipeDto> RecipeDtos { get; set; }
-    public DbSet<AuthorDto> AuthorDtos { get; set; }
-    public DbSet<RecipeIngredientDto> RecipeIngredientDtos { get; set; }
-    public DbSet<RecipeNutritionDataDto> RecipeNutritionDataDtos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<RecipeDto>()
             .ToTable("RecipeData");
 
+        //modelBuilder.Entity<RecipeDto>()
+        //    .HasNoKey();
+        modelBuilder.Entity<RecipeDto>()
+            .HasKey(r => r.Id); // Specify the Id property as the primary key
         modelBuilder.Entity<RecipeDto>()
             .Property(r => r.Name)
             .HasColumnType("nvarchar(255)");
@@ -43,7 +44,7 @@ public class RecipeContext : DbContext
             .HasColumnType("bigint");
         modelBuilder.Entity<RecipeDto>()
             .Property(r => r.Difficulty)
-            .HasColumnType("float");
+            .HasColumnType("tinyint");
         modelBuilder.Entity<RecipeDto>()
             .Property(r => r.RecipeNutritionDataID)
             .HasColumnType("nvarchar(255)");
