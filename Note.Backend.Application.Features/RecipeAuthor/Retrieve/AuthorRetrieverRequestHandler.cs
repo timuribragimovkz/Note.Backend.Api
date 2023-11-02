@@ -16,8 +16,8 @@ public class AuthorRetrieverRequestHandler : IRequestHandler<AuthorRetrieverRequ
 
     public async Task<AuthorRetrieverResponse> Handle(AuthorRetrieverRequest request, CancellationToken cancellationToken)
     {
-        var result = await _authorRepository.GetById(request.Id);
+        var result = await _authorRepository.GetRequiredByName(request.Name);
 
-        return new AuthorRetrieverResponse(true, result.Id);
+        return new AuthorRetrieverResponse(result.Name, result.Id);
     }
 }

@@ -14,7 +14,7 @@ public class IngredientRetrieverRequestHandler : IRequestHandler<IngredientRetri
 
     public async Task<IngredientRetrieverResponse> Handle(IngredientRetrieverRequest request, CancellationToken cancellationToken)
     {
-        var result = await _ingredientRepository.GetById(request.Id);
+        var result = await _ingredientRepository.GetRequiredById(request.Id);
 
         return new IngredientRetrieverResponse(true, result.Id);
     }

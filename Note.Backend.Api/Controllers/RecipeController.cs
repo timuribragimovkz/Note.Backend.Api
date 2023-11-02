@@ -34,7 +34,7 @@ public class RecipeController : ControllerBase
         return await _mediator.Send(request);
     }
 
-    [Route("GetRecipeById")]
+    [Route("GetRequiredAssembledRecipeById")]
     [HttpPost]
     public async Task<RecipeRetrieverResponse> GetRecipeById(RecipeRetrieverRequest request)
     {

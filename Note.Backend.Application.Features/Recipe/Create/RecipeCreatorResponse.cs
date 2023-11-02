@@ -2,6 +2,6 @@
 
 namespace Note.Backend.Application.Features.Recipe.Create;
 
-public record RecipeCreatorResponse(Domain.Recipe.Models.Recipe recipe)
+public record RecipeCreatorResponse(string NewRecipeId)
 {
 }

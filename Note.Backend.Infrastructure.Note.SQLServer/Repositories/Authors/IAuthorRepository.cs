@@ -7,5 +7,6 @@ namespace Note.Backend.Infrastructure.SQLServer.Repositories.Authors
 {
     public interface IAuthorRepository : IBaseSQLRepository<AuthorDto, Author, AuthorContext>
     {
+        Task<Author> GetRequiredByName(string name);
     }
 }

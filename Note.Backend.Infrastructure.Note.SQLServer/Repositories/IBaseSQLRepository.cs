@@ -12,7 +12,6 @@ public interface IBaseSQLRepository<TDto, TDomain, TContext>
 {
     Task<string> Insert(TDomain model);
     Task<TDomain> GetRequiredById(string id);
-    Task<TDomain> GetById(string id);
     Task<string> DeleteById(string id);
     Task<List<TDomain>> GetAll();
     Task<string> UpdateRequiredById(string id, TDomain model);

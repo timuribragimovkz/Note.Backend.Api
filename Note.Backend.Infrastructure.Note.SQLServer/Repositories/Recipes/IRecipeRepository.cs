@@ -6,5 +6,4 @@ namespace Note.Backend.Infrastructure.SQLServer.Repositories.Recipes;
 
 public interface IRecipeRepository : IBaseSQLRepository<RecipeDto, Recipe, RecipeContext>
 {
-    Task<Recipe> GetRecipeById(string id);
 }

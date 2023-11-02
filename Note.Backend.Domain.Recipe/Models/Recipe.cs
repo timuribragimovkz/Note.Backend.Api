@@ -37,6 +37,7 @@ public class Recipe : BaseDomainEntity
         NutritionData = nutritionData;
         Ingredients = ingredients;
     }
+    public Recipe() { }
 
     public void Assemble(List<RecipeIngredient> ingredients, Author author, RecipeNutritionData recipeNutritionData)
     {

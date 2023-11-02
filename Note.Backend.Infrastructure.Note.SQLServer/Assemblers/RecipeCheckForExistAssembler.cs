@@ -24,7 +24,7 @@ public class RecipeCheckForExistAssembler : IRecipeCheckForExistAssembler, IScop
             throw new Exception("Author Id is empty");
         }
         
-        var existAuthor = await _authorRepository.GetById(AuthorId);
+        var existAuthor = await _authorRepository.GetRequiredById(AuthorId);
 
         if (existAuthor == null)
         {
@@ -40,7 +40,7 @@ public class RecipeCheckForExistAssembler : IRecipeCheckForExistAssembler, IScop
             throw new Exception("Ingredient Id is empty");
         }
 
-        var existIngredient = await _ingredientRepository.GetById(IngredientId);
+        var existIngredient = await _ingredientRepository.GetRequiredById(IngredientId);
 
         if (existIngredient == null)
         {

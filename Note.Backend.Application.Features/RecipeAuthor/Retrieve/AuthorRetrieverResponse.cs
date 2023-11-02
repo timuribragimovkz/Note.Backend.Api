@@ -1,5 +1,7 @@
-﻿namespace Note.Backend.Application.Features.RecipeAuthor.Retrieve;
+﻿using Note.Backend.Infrastructure.SQLServer.Models;
 
-public record AuthorRetrieverResponse(bool Yes, string Id)
+namespace Note.Backend.Application.Features.RecipeAuthor.Retrieve;
+
+public record AuthorRetrieverResponse(string Name, string Id)
 {
 }

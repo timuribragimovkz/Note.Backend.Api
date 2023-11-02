@@ -1,14 +1,9 @@
 ﻿using MediatR;
-using Note.Backend.Domain.NutritionData.Calculator;
-using Note.Backend.Domain.Recipe.Models;
 using Note.Backend.Infrastructure.SQLServer.Assemblers;
-using Note.Backend.Infrastructure.SQLServer.Migrations.RecipeNutritionData;
 using Note.Backend.Infrastructure.SQLServer.Repositories.Authors;
 using Note.Backend.Infrastructure.SQLServer.Repositories.Ingredients;
 using Note.Backend.Infrastructure.SQLServer.Repositories.NutritionData;
 using Note.Backend.Infrastructure.SQLServer.Repositories.Recipes;
-using System.ComponentModel.DataAnnotations;
-using System.Resources;
 
 namespace Note.Backend.Application.Features.Recipe.Create;
 
@@ -36,14 +31,14 @@ public class RecipeCreatorRequestHandler : IRequestHandler<RecipeCreatorRequest,
         {
             throw new Exception("Your request is empty");
         }
-        var ifExistAuhor = await _recipeCheckForExistAssembler.CheckExistAuthor(request.AuthorId);
+        var isExistAuhor = await _recipeCheckForExistAssembler.CheckExistAuthor(request.AuthorId);
         var author = await _authorRepository.GetRequiredById(request.AuthorId);
 
         var ingredients = new List<Domain.Ingredients.Models.RecipeIngredient>();
         foreach (var ingredientId in request.IngredientIds)
         {
-            var ingredient = await _recipeCheckForExistAssembler.CHeckExistIngredient(ingredientId);
-            var existIngredient = await _ingredientRepository.GetById(ingredientId);
+            var isExistingredient = await _recipeCheckForExistAssembler.CHeckExistIngredient(ingredientId);
+            var existIngredient = await _ingredientRepository.GetRequiredById(ingredientId);
             ingredients.Add(existIngredient);
         }
         //check request propetry for null etc,
@@ -59,11 +54,13 @@ public class RecipeCreatorRequestHandler : IRequestHandler<RecipeCreatorRequest,
             request.HoursCooking,
             request.MinutesCooking,
             request.SecondsCooking);
+
         var PreparationTime = new TimeSpan(
             request.DaysPreparation,
             request.HoursPreparation,
             request.MinutesPreparation,
             request.SecondsPreparation);
+
         var recipe = new Domain.Recipe.Models.Recipe(
             request.Name,
             author,
@@ -74,12 +71,13 @@ public class RecipeCreatorRequestHandler : IRequestHandler<RecipeCreatorRequest,
             CookongTime,
             request.Difficulty,
             ingredients);
+
         recipe.RecalculateByPortion(1);
 
         await _recipeNutritionDataRepository.Insert(recipe.NutritionData);
 
         var id = await _recipeRepository.Insert(recipe);
 
-        return new RecipeCreatorResponse(recipe);
+        return new RecipeCreatorResponse(id);
     }
 }

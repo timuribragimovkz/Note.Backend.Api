@@ -7,6 +7,7 @@ public enum ErrorCode
     
     //888 - INFRASTRUCTURE
     IdNotProvided = 888001,
-    ModelNotFound = 888002
+    ModelNotFound = 888002,
+    AuthorNotFound = 888003
     
 }

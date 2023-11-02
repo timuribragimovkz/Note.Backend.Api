@@ -18,28 +18,6 @@ public class RecipeDto : BaseDto
     public string IngredientIds { get; private set; } // check if exits
     public int PortionQuantity { get; private set; } = 1;
 
-    public RecipeDto(
-    string name,
-    string authorId,
-    string description,
-    DateTime firstPublicationDateTime,
-    DateTime lastUpdateDateTime,
-    TimeSpan preparationTime,
-    TimeSpan cookingTime,
-    RecipeDifficulty difficulty,
-    string ingredientIds)
-    {
-        Name = name;
-        AuthorId = authorId;
-        Description = description;
-        FirstPublicationDateTime = firstPublicationDateTime;
-        LastUpdateDateTime = lastUpdateDateTime;
-        PreparationTime = preparationTime;
-        CookingTime = cookingTime;
-        Difficulty = difficulty;
-        IngredientIds = ingredientIds;
-
-    }
     public void SetIngredientsJson(string ingredientsJson)
     {
         IngredientIds = ingredientsJson;

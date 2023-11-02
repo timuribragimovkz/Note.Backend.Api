@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Note.Backend.Domain.Common.Enums;
 using Note.Backend.Domain.Recipe.Models;
+using Note.Backend.Infrastructure.Common.Exceptions;
 using Note.Backend.Infrastructure.SQLServer.Assemblers;
 using Note.Backend.Infrastructure.SQLServer.Context.Recipe;
 using Note.Backend.Infrastructure.SQLServer.Models;
@@ -17,7 +19,7 @@ public class RecipeRepository : BaseSQLRepository<RecipeDto, Recipe, RecipeConte
         _context = context;
     }
 
-    public async Task<Recipe> GetRecipeById(string id)
+    public override async Task<Recipe> GetRequiredById(string id)
     {
         var recipeDto = await GetRequiredRecipeDtoById(id);
         var recipe = await _recipeAssembler.AssembleForRecipePageRequiredFromDto(recipeDto);
@@ -35,4 +37,8 @@ public class RecipeRepository : BaseSQLRepository<RecipeDto, Recipe, RecipeConte
 
         return recipeDto;
     }
+    //public override Task<Recipe> GetById(string id)
+    //{
+    //    throw new Exception("Used get GetRequiredAssembledRecipeById");
+    //}
 }

@@ -16,18 +16,18 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
 
 {
     protected readonly DbContext DbContext;
-    private readonly IMapper _mapper;
+    protected readonly IMapper Mapper;
     protected DbSet<TDto> Table => DbContext.Set<TDto>();
 
     protected BaseSQLRepository(TContext context, IMapper mapper)
     {
         DbContext = context;
-        _mapper = mapper;
+        Mapper = mapper;
     }
 
     public async Task<string> Insert(TDomain model)
     {
-        var dto = _mapper.Map<TDto>(model);
+        var dto = Mapper.Map<TDto>(model);
         await Table.AddAsync(dto);
 
         await DbContext.SaveChangesAsync();
@@ -35,7 +35,7 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
         return model.Id;
     }
 
-    public async Task<TDomain> GetRequiredById(string id)
+    public virtual async Task<TDomain> GetRequiredById(string id)
     {
         var foundDto = await GetById(id);
         if (foundDto == null)
@@ -43,10 +43,10 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
             throw new InfrastructureException("Model not found", ErrorCode.ModelNotFound);
         }
 
-        return _mapper.Map<TDomain>(foundDto);
+        return Mapper.Map<TDomain>(foundDto);
     }
 
-    public async Task<TDomain> GetById(string id)
+    private async Task<TDomain> GetById(string id)
     {
         if (string.IsNullOrEmpty(id))
         {
@@ -55,7 +55,7 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
 
         var foundDto = await Table.FindAsync(id);
 
-        return _mapper.Map<TDomain>(foundDto);
+        return Mapper.Map<TDomain>(foundDto);
     }
 
     public async Task<string> DeleteById(string id)
@@ -74,7 +74,7 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
 
     public async Task<List<TDomain>> GetAll()
     {
-        return await Table.Select(x => _mapper.Map<TDomain>(x)).ToListAsync();
+        return await Table.Select(x => Mapper.Map<TDomain>(x)).ToListAsync();
     }
 
     public async Task<string> UpdateRequiredById(string id, TDomain model)
@@ -84,7 +84,7 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
         {
             throw new InfrastructureException("Model not found", ErrorCode.ModelNotFound);
         }
-        var updateDto = _mapper.Map<TDto>(model);
+        var updateDto = Mapper.Map<TDto>(model);
 
         Table.Remove(existingDto);
         //await _dbContext.SaveChangesAsync();
@@ -94,4 +94,5 @@ public class BaseSQLRepository<TDto, TDomain, TContext> : IBaseSQLRepository<TDt
         
         return addResult.Entity.Id;
     }
+
 }
