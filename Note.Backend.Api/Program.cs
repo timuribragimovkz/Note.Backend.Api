@@ -8,10 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.RegisterServicesWithScrutorAuthor();
-builder.Services.RegisterServicesWithScrutorIngredient();
-builder.Services.RegisterServicesWithScrutorNutritionData();
-builder.Services.RegisterServicesWithScrutorRecipe();
+builder.Services.RegisterServicesWithScrutor();
+
 
 //RegisterServicesWithScrutorRecipe
 

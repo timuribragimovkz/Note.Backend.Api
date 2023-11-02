@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LWulhUasLTH4SfjPEHOF39PHKJ3izUlNYS8y5Cm7bws6jTTrYAOjoroIyvlohWnmrisfVjECcLxSt0ypIKLflg==",
+  "dgSpecHash": "KEmtQ46aV9HI7R447v3lgCmagE/ECsasUnsGc2qKlntdNOxt5U/6Y9TC1KkQBz3NsAUvaKzcPQvFu4TkzyURxQ==",
   "success": true,
-  "projectFilePath": "/Users/timuribragimov/Desktop/sources3/Note.Backend.Api/Note.Backend.Infrastructure.Common/Note.Backend.Infrastructure.Common.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Common\\Note.Backend.Infrastructure.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -17,6 +17,6 @@ public class IngredientCreatorRequestHandler : IRequestHandler<IngredientCreator
         var model = request.ToRecipeIngredient();
         var id = await _ingredientRepository.Insert(model);
 
-        return new IngredientCreatorResponse(!string.IsNullOrEmpty(id));
+        return new IngredientCreatorResponse(!string.IsNullOrEmpty(id), id);
     }
 }

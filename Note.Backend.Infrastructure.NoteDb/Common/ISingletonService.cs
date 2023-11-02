@@ -1,6 +1,6 @@
 namespace Note.Backend.Infrastructure.NoteDb.Common;
 
-public interface ISingletonService
+public interface IScrutorService
 {
     
 }

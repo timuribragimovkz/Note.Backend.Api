@@ -17,6 +17,6 @@ public class AuthorCreatorRequestHandler : IRequestHandler<AuthorCreatorRequest,
         var model = request.ToRecipeAuthor();
         var id = await _authorRepository.Insert(model);
 
-        return new AuthorCreatorResponse(!string.IsNullOrEmpty(id));
+        return new AuthorCreatorResponse(!string.IsNullOrEmpty(id), id);
     }
 }

@@ -16,7 +16,8 @@ public class RecipeRetrieverRequestHandler : IRequestHandler<RecipeRetrieverRequ
     public async Task<RecipeRetrieverResponse> Handle(RecipeRetrieverRequest request, CancellationToken cancellationToken)
     {
         var result = await _recipeRepository.GetById(request.Id);
-
-        return new RecipeRetrieverResponse(result.Name, result.Difficulty, result.CookingTime, result.PreparationTime);
+        result.RecalculateByPortion(request.Portions);
+        
+        return new RecipeRetrieverResponse(result);
     }
 }

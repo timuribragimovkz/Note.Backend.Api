@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Azure.Core;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Note.Backend.Application.Features.Recipe.Create;
 using Note.Backend.Application.Features.Recipe.Edit;
@@ -41,9 +42,10 @@ public class RecipeController : ControllerBase
     }
 
     [Route("GetAllRecipes")]
-    [HttpPost]
-    public async Task<GetAllRecipesRetrieverResponse> GetAllRecipes(GetAllRecipesRetrieverRequest request)
+    [HttpGet]
+    public async Task<GetAllRecipesRetrieverResponse> GetAllRecipes()
     {
+        var request = new GetAllRecipesRetrieverRequest();
         return await _mediator.Send(request);
     }
     [Route("DeleteRecipe")]

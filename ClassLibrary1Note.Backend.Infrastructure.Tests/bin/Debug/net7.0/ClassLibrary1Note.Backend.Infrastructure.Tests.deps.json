@@ -131,22 +131,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.1.0.0"
           }
         }
       },
@@ -1623,7 +1623,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -1709,6 +1709,11 @@
           "Note.Backend.Infrastructure.Common.dll": {}
         }
       },
+      "Note.Backend.Infrastructure.NoteDb/1.0.0": {
+        "runtime": {
+          "Note.Backend.Infrastructure.NoteDb.dll": {}
+        }
+      },
       "Note.Backend.Infrastructure.SQLServer/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
@@ -1719,7 +1724,8 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.0-rc.1.23419.4",
           "Note.Backend.Domain.Ingredients": "1.0.0",
           "Note.Backend.Domain.Recipe": "1.0.0",
-          "Note.Backend.Infrastructure.Common": "1.0.0"
+          "Note.Backend.Infrastructure.Common": "1.0.0",
+          "Note.Backend.Infrastructure.NoteDb": "1.0.0"
         },
         "runtime": {
           "Note.Backend.Infrastructure.SQLServer.dll": {}
@@ -2790,6 +2796,11 @@
       "sha512": ""
     },
     "Note.Backend.Infrastructure.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Note.Backend.Infrastructure.NoteDb/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

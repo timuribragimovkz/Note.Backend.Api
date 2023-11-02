@@ -2,6 +2,6 @@
 
 namespace Note.Backend.Application.Features.Recipe.Retrieve;
 
-public record RecipeRetrieverResponse(string Name, RecipeDifficulty Difficulty, TimeSpan CookingTime, TimeSpan PreparationTime)
+public record RecipeRetrieverResponse(Domain.Recipe.Models.Recipe recipe)
 {
 }

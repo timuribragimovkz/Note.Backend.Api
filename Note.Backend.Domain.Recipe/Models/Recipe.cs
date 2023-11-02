@@ -51,22 +51,13 @@ public class Recipe : BaseDomainEntity
             throw new DomainException($"Provided ingredient with Id: {ingredient.Id} already exists in this recipe",
                 ErrorCode.IngredientAlreadyExists);
         }
-        
+
         Ingredients.Add(ingredient);
-        
+
         NutritionData.Recalculate(Ingredients, PortionQuantity);
     }
-    
-    // public void AddIngredients(IEnumerable<RecipeIngredient> ingredients)
-    // {
-    //     if (Ingredients.Any(x => x.Id == ingredient.Id))
-    //     {
-    //         throw new DomainException($"Provided ingredient with Id: {ingredient.Id} already exists in this recipe",
-    //             ErrorCode.IngredientAlreadyExists);
-    //     }
-    //     
-    //     Ingredients.Add(ingredient);
-    //     
-    //     NutritionData.Recalculate(Ingredients, PortionQuantity);
-    // }
+    public void RecalculateByPortion(int portion)
+    {
+        NutritionData.Recalculate(Ingredients, PortionQuantity);
+    }
 }

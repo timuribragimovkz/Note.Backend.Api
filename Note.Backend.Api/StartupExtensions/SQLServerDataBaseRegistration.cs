@@ -10,13 +10,14 @@ namespace Note.Backend.Api.StartupExtensions;
 
 public static class SQLServerDataBaseRegistration
 {
+   //add string connection string 
     public static IServiceCollection RegisterSQLServerIngredientData(this IServiceCollection services, IConfiguration config)
     {
         var connectionString = config.GetSection("ConnectionStrings:IngredientDataDb").Value;
         services.AddEntityFrameworkSqlServer().AddDbContext<IngredientContext>(options =>
         {
             options.UseSqlServer(connectionString);
-        });
+        }, ServiceLifetime.Scoped);
 
         return services;
     }
@@ -26,7 +27,7 @@ public static class SQLServerDataBaseRegistration
         services.AddEntityFrameworkSqlServer().AddDbContext<AuthorContext>(options =>
         {
             options.UseSqlServer(connectionString);
-        });
+        }, ServiceLifetime.Scoped);
 
         return services;
     }
@@ -36,7 +37,7 @@ public static class SQLServerDataBaseRegistration
         services.AddEntityFrameworkSqlServer().AddDbContext<RecipeNutritionDataContext>(options =>
         {
             options.UseSqlServer(connectionString);
-        });
+        }, ServiceLifetime.Scoped);
 
         return services;
     }
@@ -46,7 +47,7 @@ public static class SQLServerDataBaseRegistration
         services.AddEntityFrameworkSqlServer().AddDbContext<RecipeContext>(options =>
         {
             options.UseSqlServer(connectionString);
-        });
+        }, ServiceLifetime.Scoped);
 
         return services;
     }

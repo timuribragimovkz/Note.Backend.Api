@@ -1,26 +1,47 @@
-﻿using Note.Backend.Domain.Ingredients.Models;
-using Note.Backend.Domain.Recipe.Enums;
-using Note.Backend.Domain.Recipe.Models;
+﻿using Note.Backend.Domain.Recipe.Enums;
 using Note.Backend.Infrastructure.Common.Models;
 
 namespace Note.Backend.Infrastructure.SQLServer.Models;
 
 public class RecipeDto : BaseDto
 {
-    public string Name { get; init; }
-    public string AuthorID { get; init; }
-    public AuthorDto Author { get; private set; }
-    public string Description { get; private set; }
-    public DateTime FirstPublicationDateTime { get; private set; }
-    public DateTime LastUpdateDateTime { get; private set; }
-    public TimeSpan PreparationTime { get; private set; }
-    public TimeSpan CookingTime { get; private set; }
-    public RecipeDifficulty Difficulty { get; private set; }
-    public string RecipeNutritionDataID { get; private set; }
-    public RecipeNutritionDataDto RecipeNutritionData { get; private set; }
-    //public RecipeNutritionData NutritionData { get; private set; }
-    public string IngredientID { get; private set; }
-    public RecipeIngredientDto RecipeIngredientDto { get; private set; }
-    public List<string> IngredientDtoIds { get; private set; }
+
+    public string Name { get; init; } // check string.IsNullOrEmpty, regex 
+    public string AuthorId { get; init; } // check if exist, throw
+    public string Description { get; private set; } // check string.IsNullOrEmpty, regex
+    public DateTime FirstPublicationDateTime { get; private set; } // Datetime.Now
+    public DateTime LastUpdateDateTime { get; private set; } // Datetime.Now
+    public TimeSpan PreparationTime { get; private set; } //from request
+    public TimeSpan CookingTime { get; private set; } //from request
+    public RecipeDifficulty Difficulty { get; private set; } //from request
+    public string RecipeNutritionDataID { get; private set; } // 1)create to domain, 2) add to db 3) use DtoId
+    public string IngredientIds { get; private set; } // check if exits
     public int PortionQuantity { get; private set; } = 1;
+
+    public RecipeDto(
+    string name,
+    string authorId,
+    string description,
+    DateTime firstPublicationDateTime,
+    DateTime lastUpdateDateTime,
+    TimeSpan preparationTime,
+    TimeSpan cookingTime,
+    RecipeDifficulty difficulty,
+    string ingredientIds)
+    {
+        Name = name;
+        AuthorId = authorId;
+        Description = description;
+        FirstPublicationDateTime = firstPublicationDateTime;
+        LastUpdateDateTime = lastUpdateDateTime;
+        PreparationTime = preparationTime;
+        CookingTime = cookingTime;
+        Difficulty = difficulty;
+        IngredientIds = ingredientIds;
+
+    }
+    public void SetIngredientsJson(string ingredientsJson)
+    {
+        IngredientIds = ingredientsJson;
+    }
 }

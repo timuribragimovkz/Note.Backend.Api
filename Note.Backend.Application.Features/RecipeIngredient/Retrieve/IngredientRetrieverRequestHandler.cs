@@ -16,6 +16,6 @@ public class IngredientRetrieverRequestHandler : IRequestHandler<IngredientRetri
     {
         var result = await _ingredientRepository.GetById(request.Id);
 
-        return new IngredientRetrieverResponse(true);
+        return new IngredientRetrieverResponse(true, result.Id);
     }
 }

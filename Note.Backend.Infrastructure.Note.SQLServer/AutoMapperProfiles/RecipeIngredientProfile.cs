@@ -8,7 +8,7 @@ public class RecipeIngredientProfile : Profile
 {
     public RecipeIngredientProfile()
     {
-        CreateMap<RecipeIngredient, RecipeIngredientDto>();
-        CreateMap<RecipeIngredientDto, RecipeIngredient>();
+        CreateMap<Domain.Ingredients.Models.RecipeIngredient, RecipeIngredientDto>();
+        CreateMap<RecipeIngredientDto, Domain.Ingredients.Models.RecipeIngredient>();
     }
 }

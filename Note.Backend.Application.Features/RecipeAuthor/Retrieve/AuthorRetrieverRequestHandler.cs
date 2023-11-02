@@ -18,6 +18,6 @@ public class AuthorRetrieverRequestHandler : IRequestHandler<AuthorRetrieverRequ
     {
         var result = await _authorRepository.GetById(request.Id);
 
-        return new AuthorRetrieverResponse(true);
+        return new AuthorRetrieverResponse(true, result.Id);
     }
 }

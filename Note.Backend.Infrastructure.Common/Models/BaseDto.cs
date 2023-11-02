@@ -11,6 +11,4 @@ public class BaseDto
     {
         Id = string.IsNullOrEmpty(Id) ? Guid.NewGuid().ToString() : Id;
     }
-
-
 }
