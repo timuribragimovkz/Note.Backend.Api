@@ -17,10 +17,10 @@ public record RecipeEditorRequest(
     RecipeDifficulty Difficulty,
     List<Domain.Ingredients.Models.RecipeIngredient> Ingredients) : IRequest<RecipeEditorResponse>
 {
-    public Domain.Recipe.Models.Recipe ToRecipe()
+    public Domain.Recipe.Models.DomainRecipe ToRecipe()
     {
 
-        return new Domain.Recipe.Models.Recipe(Name, Author, Description, FirstPublicationDateTime,
+        return new Domain.Recipe.Models.DomainRecipe(Name, Author, Description, FirstPublicationDateTime,
          LastUpdateDateTime, PreparationTime, CookingTime, Difficulty, Ingredients);
     }
 }

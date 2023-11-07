@@ -12,11 +12,11 @@ public class RecipeProfile : Profile
     public RecipeProfile()
     {
         //CreateMap<List<RecipeIngredient>, string>().ConvertUsing<RecipeIngredientListConverter>();
-        CreateMap<Recipe, RecipeDto>()
+        CreateMap<DomainRecipe, RecipeDto>()
             .ForMember(dest => dest.AuthorId, opt => opt.MapFrom(src => src.Author.Id))
             .ForMember(dest => dest.IngredientIds, opt => opt.MapFrom(src => RecipeIngredientsJsonManager.SerializeIngredientsToJson(src.Ingredients.Select(ri => ri.Id.ToString()))))
             .ForMember(dest => dest.RecipeNutritionDataID, opt => opt.MapFrom(src => src.NutritionData.Id));
-        CreateMap<RecipeDto, Recipe>();
+        CreateMap<RecipeDto, DomainRecipe>();
 
     }
 }

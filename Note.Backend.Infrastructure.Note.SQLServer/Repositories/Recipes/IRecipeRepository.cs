@@ -4,6 +4,6 @@ using Note.Backend.Infrastructure.SQLServer.Models;
 
 namespace Note.Backend.Infrastructure.SQLServer.Repositories.Recipes;
 
-public interface IRecipeRepository : IBaseSQLRepository<RecipeDto, Recipe, RecipeContext>
+public interface IRecipeRepository : IBaseSQLRepository<RecipeDto, DomainRecipe, RecipeContext>
 {
 }

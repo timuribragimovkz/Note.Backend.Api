@@ -521,3 +521,5 @@ C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\ClassLibrary1Note.Backend.
 C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\ClassLibrary1Note.Backend.Infrastructure.Tests\obj\Debug\net7.0\ClassLibrary1Note.Backend.Infrastructure.Tests.pdb
 C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\ClassLibrary1Note.Backend.Infrastructure.Tests\obj\Debug\net7.0\ClassLibrary1Note.Backend.Infrastructure.Tests.genruntimeconfig.cache
 C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\ClassLibrary1Note.Backend.Infrastructure.Tests\obj\Debug\net7.0\ref\ClassLibrary1Note.Backend.Infrastructure.Tests.dll
+C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\ClassLibrary1Note.Backend.Infrastructure.Tests\bin\Debug\net7.0\Note.Backend.Domain.ShoppingList.dll
+C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\ClassLibrary1Note.Backend.Infrastructure.Tests\bin\Debug\net7.0\Note.Backend.Domain.ShoppingList.pdb

@@ -1,6 +1,7 @@
 using Note.Backend.Api.StartupExtensions;
 using Note.Backend.Application.Features.RecipeAuthor.Create;
 using Note.Backend.Application.Features.RecipeIngredient.Create;
+using Note.Backend.Application.Features.RecipeIngredientList;
 using Note.Backend.Application.Features.RecipeNutritionData.Retriever;
 using Note.Backend.Infrastructure.SQLServer.AutoMapperProfiles;
 
@@ -31,6 +32,7 @@ builder.Services.AddAutoMapper(typeof(RecipeNutritionDataProfile));
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<RecipeNutritionDataRetrieverRequest>());
 builder.Services.AddAutoMapper(typeof(RecipeProfile));
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<IngredientCreatorRequest>());
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<RecipeIngredientListRequest>());
 
 var app = builder.Build();
 

@@ -9,7 +9,7 @@ using Note.Backend.Infrastructure.SQLServer.Models;
 
 namespace Note.Backend.Infrastructure.SQLServer.Repositories.Recipes;
 
-public class RecipeRepository : BaseSQLRepository<RecipeDto, Recipe, RecipeContext>, IRecipeRepository, IRepository
+public class RecipeRepository : BaseSQLRepository<RecipeDto, DomainRecipe, RecipeContext>, IRecipeRepository, IRepository
 {
     private readonly IRecipeAssembler _recipeAssembler;
     private readonly RecipeContext _context;
@@ -19,7 +19,7 @@ public class RecipeRepository : BaseSQLRepository<RecipeDto, Recipe, RecipeConte
         _context = context;
     }
 
-    public override async Task<Recipe> GetRequiredById(string id)
+    public override async Task<DomainRecipe> GetRequiredById(string id)
     {
         var recipeDto = await GetRequiredRecipeDtoById(id);
         var recipe = await _recipeAssembler.AssembleForRecipePageRequiredFromDto(recipeDto);

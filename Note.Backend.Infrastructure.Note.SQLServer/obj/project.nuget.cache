@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XhB8FCgEi74eVZZXNAq75OEKSsGfkDs1kJ2ZKjQd30dAOL3bOQukfuJ5c+9ucR+L34+DC7wfQjVNA3QF8sFZ9g==",
+  "dgSpecHash": "aTqn3BdKA9KAZ1Hve6tvd6diqT0EUeiHil/RkQk0KJbaDZ4fqtaw1z9lb29/vCcwV52t0xWA9Hy7CN/cfRa0Jg==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Infrastructure.Note.SQLServer\\Note.Backend.Infrastructure.SQLServer.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

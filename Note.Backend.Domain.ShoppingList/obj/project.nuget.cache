@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3Ah0ldV8W8BgDy1EYRbDiQCYSD5srxDkdwsOKPQhvHuw74gJe+w5MIdSX1w4HbIFyWkG7cWbD8saxP+xlJNgrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.ShoppingList\\Note.Backend.Domain.ShoppingList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

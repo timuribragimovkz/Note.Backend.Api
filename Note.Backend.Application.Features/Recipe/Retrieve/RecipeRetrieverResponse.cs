@@ -2,6 +2,6 @@
 
 namespace Note.Backend.Application.Features.Recipe.Retrieve;
 
-public record RecipeRetrieverResponse(Domain.Recipe.Models.Recipe recipe)
+public record RecipeRetrieverResponse(Domain.Recipe.Models.DomainRecipe recipe)
 {
 }

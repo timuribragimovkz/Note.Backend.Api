@@ -5,5 +5,5 @@ namespace Note.Backend.Infrastructure.SQLServer.Assemblers;
 
 public interface IRecipeAssembler
 {
-    Task<Recipe> AssembleForRecipePageRequiredFromDto(RecipeDto dto);
+    Task<DomainRecipe> AssembleForRecipePageRequiredFromDto(RecipeDto dto);
 }

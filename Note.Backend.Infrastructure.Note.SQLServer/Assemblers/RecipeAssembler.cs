@@ -27,7 +27,7 @@ public class RecipeAssembler : IRecipeAssembler, IScopedService
         _mapper = mapper;
     }
 
-    public async Task<Recipe> AssembleForRecipePageRequiredFromDto(RecipeDto dto)
+    public async Task<DomainRecipe> AssembleForRecipePageRequiredFromDto(RecipeDto dto)
     {
         var ingredients = new List<RecipeIngredient>();
         var ingredientsDtoList = RecipeIngredientsJsonManager.DeserializeJsonToIngredients(dto.IngredientIds);
@@ -43,7 +43,7 @@ public class RecipeAssembler : IRecipeAssembler, IScopedService
 
         var nutritionData = await _recipeNutritionDataRepository.GetRequiredById(dto.RecipeNutritionDataID);
         
-        var recipe = _mapper.Map<Recipe>(dto);
+        var recipe = _mapper.Map<DomainRecipe>(dto);
         recipe.Assemble(ingredients, author,nutritionData);
 
         return recipe;

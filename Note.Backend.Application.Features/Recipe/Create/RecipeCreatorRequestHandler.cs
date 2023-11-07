@@ -61,7 +61,7 @@ public class RecipeCreatorRequestHandler : IRequestHandler<RecipeCreatorRequest,
             request.MinutesPreparation,
             request.SecondsPreparation);
 
-        var recipe = new Domain.Recipe.Models.Recipe(
+        var recipe = new Domain.Recipe.Models.DomainRecipe(
             request.Name,
             author,
             request.Description,

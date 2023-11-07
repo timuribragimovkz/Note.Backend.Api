@@ -1115,15 +1115,15 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -2832,6 +2832,21 @@
           "bin/placeholder/Note.Backend.Domain.Recipe.dll": {}
         }
       },
+      "Note.Backend.Domain.ShoppingList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Note.Backend.Domain.Ingredients": "1.0.0",
+          "Note.Backend.Domain.Recipe": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Note.Backend.Domain.ShoppingList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Note.Backend.Domain.ShoppingList.dll": {}
+        }
+      },
       "Note.Backend.Infrastructure.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2867,6 +2882,7 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.0-rc.1.23419.4",
           "Note.Backend.Domain.Ingredients": "1.0.0",
           "Note.Backend.Domain.Recipe": "1.0.0",
+          "Note.Backend.Domain.ShoppingList": "1.0.0",
           "Note.Backend.Infrastructure.Common": "1.0.0",
           "Note.Backend.Infrastructure.NoteDb": "1.0.0"
         },
@@ -4344,14 +4360,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.1",
+      "path": "newtonsoft.json/13.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -4360,13 +4377,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -8433,6 +8452,11 @@
       "type": "project",
       "path": "../Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj",
       "msbuildProject": "../Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj"
+    },
+    "Note.Backend.Domain.ShoppingList/1.0.0": {
+      "type": "project",
+      "path": "../Note.Backend.Domain.ShoppingList/Note.Backend.Domain.ShoppingList.csproj",
+      "msbuildProject": "../Note.Backend.Domain.ShoppingList/Note.Backend.Domain.ShoppingList.csproj"
     },
     "Note.Backend.Infrastructure.Common/1.0.0": {
       "type": "project",

@@ -15,23 +15,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Note.Backend.Infrastructure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Infrastructure.NoteDb", "Note.Backend.Infrastructure.NoteDb\Note.Backend.Infrastructure.NoteDb.csproj", "{4F8FA267-BE38-4E45-AB5C-A06F757BC4AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Infrastructure.Common", "Note.Backend.Infrastructure.Common\Note.Backend.Infrastructure.Common.csproj", "{15F3466A-C8AE-41C4-B939-46DCE16335A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Infrastructure.Common", "Note.Backend.Infrastructure.Common\Note.Backend.Infrastructure.Common.csproj", "{15F3466A-C8AE-41C4-B939-46DCE16335A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Domain.NutritionData", "Note.Backend.Domain.NutritionData\Note.Backend.Domain.NutritionData.csproj", "{A480861A-BAE6-4737-A8AB-C5DA6AABBE71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Domain.NutritionData", "Note.Backend.Domain.NutritionData\Note.Backend.Domain.NutritionData.csproj", "{A480861A-BAE6-4737-A8AB-C5DA6AABBE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Domain.Ingredients", "Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj", "{FB15E436-F5BC-4D11-9747-1A059798E71B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Domain.Ingredients", "Note.Backend.Domain.Ingredients\Note.Backend.Domain.Ingredients.csproj", "{FB15E436-F5BC-4D11-9747-1A059798E71B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Domain.Recipe", "Note.Backend.Domain.Recipe\Note.Backend.Domain.Recipe.csproj", "{94ED959C-0154-47BD-BC4E-D8761EA529AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Domain.Recipe", "Note.Backend.Domain.Recipe\Note.Backend.Domain.Recipe.csproj", "{94ED959C-0154-47BD-BC4E-D8761EA529AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Domain.Common", "Note.Backend.Domain.Common\Note.Backend.Domain.Common.csproj", "{DA4267E1-DA52-4FB4-8168-07DB07545CCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Domain.Common", "Note.Backend.Domain.Common\Note.Backend.Domain.Common.csproj", "{DA4267E1-DA52-4FB4-8168-07DB07545CCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Application.Features", "Note.Backend.Application.Features\Note.Backend.Application.Features.csproj", "{ED709CAF-43D2-414F-9638-10756ED317FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Application.Features", "Note.Backend.Application.Features\Note.Backend.Application.Features.csproj", "{ED709CAF-43D2-414F-9638-10756ED317FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1Note.Backend.Infrastructure.Tests", "ClassLibrary1Note.Backend.Infrastructure.Tests\ClassLibrary1Note.Backend.Infrastructure.Tests.csproj", "{7E356DF7-183C-4CA6-A823-7A1DF12AC682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1Note.Backend.Infrastructure.Tests", "ClassLibrary1Note.Backend.Infrastructure.Tests\ClassLibrary1Note.Backend.Infrastructure.Tests.csproj", "{7E356DF7-183C-4CA6-A823-7A1DF12AC682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Infrastructure.SQLServer", "Note.Backend.Infrastructure.Note.SQLServer\Note.Backend.Infrastructure.SQLServer.csproj", "{86BC2499-8035-4650-9398-4BDAA2EA6052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Infrastructure.SQLServer", "Note.Backend.Infrastructure.Note.SQLServer\Note.Backend.Infrastructure.SQLServer.csproj", "{86BC2499-8035-4650-9398-4BDAA2EA6052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Domain.Tests", "Note.Backend.Domain.Tests\Note.Backend.Domain.Tests.csproj", "{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Note.Backend.Domain.Tests", "Note.Backend.Domain.Tests\Note.Backend.Domain.Tests.csproj", "{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Backend.Domain.ShoppingList", "Note.Backend.Domain.ShoppingList\Note.Backend.Domain.ShoppingList.csproj", "{DB5C556E-5354-441A-9B4C-07567DB9D116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5C556E-5354-441A-9B4C-07567DB9D116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5C556E-5354-441A-9B4C-07567DB9D116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5C556E-5354-441A-9B4C-07567DB9D116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5C556E-5354-441A-9B4C-07567DB9D116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{7E356DF7-183C-4CA6-A823-7A1DF12AC682} = {CB20F9B4-284D-41BE-90FA-5AB08D208DD2}
 		{86BC2499-8035-4650-9398-4BDAA2EA6052} = {CB20F9B4-284D-41BE-90FA-5AB08D208DD2}
 		{2BED6F09-ADD7-45FA-93C6-3256F7A06EFC} = {26D04A83-2177-47BB-8110-D9037686A95E}
+		{DB5C556E-5354-441A-9B4C-07567DB9D116} = {26D04A83-2177-47BB-8110-D9037686A95E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE98CEC8-9FE0-4933-A2E1-1074B7F8E57D}

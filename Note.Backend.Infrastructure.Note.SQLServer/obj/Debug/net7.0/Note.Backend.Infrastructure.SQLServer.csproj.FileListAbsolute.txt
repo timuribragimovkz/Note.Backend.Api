@@ -94,3 +94,5 @@ C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\Note.Backend.Infrastructur
 C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\Note.Backend.Infrastructure.Note.SQLServer\obj\Debug\net7.0\Note.Backend.Infrastructure.SQLServer.pdb
 C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\Note.Backend.Infrastructure.Note.SQLServer\obj\Debug\net7.0\Note.Backend.Infrastructure.SQLServer.genruntimeconfig.cache
 C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\Note.Backend.Infrastructure.Note.SQLServer\obj\Debug\net7.0\ref\Note.Backend.Infrastructure.SQLServer.dll
+C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\Note.Backend.Infrastructure.Note.SQLServer\bin\Debug\net7.0\Note.Backend.Domain.ShoppingList.dll
+C:\Users\USER\source\repos\Note.Backend.Api\RecipeApi\Note.Backend.Infrastructure.Note.SQLServer\bin\Debug\net7.0\Note.Backend.Domain.ShoppingList.pdb

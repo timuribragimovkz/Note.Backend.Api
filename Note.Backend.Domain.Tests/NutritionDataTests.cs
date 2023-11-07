@@ -51,7 +51,7 @@ public class NutritionDataTests
             new RecipeIngredient("ingr", IngredientType.Berries, 
                 (float)0.1, (float)0.1, (float)0.1, 100);
 
-        var recipe = new Recipe.Models.Recipe("Hiho", new Author("Tim"), "no comment",
+        var recipe = new Recipe.Models.DomainRecipe("Hiho", new Author("Tim"), "no comment",
             DateTime.Now, DateTime.Now, 
             new TimeSpan(100), new TimeSpan(100), RecipeDifficulty.Easy,
             new List<RecipeIngredient>());

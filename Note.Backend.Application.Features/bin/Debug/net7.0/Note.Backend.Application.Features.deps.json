@@ -535,6 +535,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -763,6 +771,16 @@
           "Note.Backend.Domain.Recipe.dll": {}
         }
       },
+      "Note.Backend.Domain.ShoppingList/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Note.Backend.Domain.Ingredients": "1.0.0",
+          "Note.Backend.Domain.Recipe": "1.0.0"
+        },
+        "runtime": {
+          "Note.Backend.Domain.ShoppingList.dll": {}
+        }
+      },
       "Note.Backend.Infrastructure.Common/1.0.0": {
         "dependencies": {
           "Note.Backend.Domain.Common": "1.0.0"
@@ -786,6 +804,7 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.0-rc.1.23419.4",
           "Note.Backend.Domain.Ingredients": "1.0.0",
           "Note.Backend.Domain.Recipe": "1.0.0",
+          "Note.Backend.Domain.ShoppingList": "1.0.0",
           "Note.Backend.Infrastructure.Common": "1.0.0",
           "Note.Backend.Infrastructure.NoteDb": "1.0.0"
         },
@@ -1116,6 +1135,13 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
     "System.CodeDom/4.4.0": {
       "type": "package",
       "serviceable": true,
@@ -1293,6 +1319,11 @@
       "sha512": ""
     },
     "Note.Backend.Domain.Recipe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Note.Backend.Domain.ShoppingList/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
