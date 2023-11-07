@@ -1,30 +1,34 @@
-﻿using Note.Backend.Domain.Ingredients.Models;
+﻿using Microsoft.Extensions.Options;
+using Note.Backend.Domain.Common.Enums;
+using Note.Backend.Domain.Common.Exceptions;
+using Note.Backend.Domain.Ingredients.Models;
 using Note.Backend.Domain.Recipe.Models;
-using Note.Backend.Domain.ShoppingList.Utilites;
-using System.Runtime.CompilerServices;
+using Note.Backend.Domain.ShoppingList.Options;
 
 namespace Note.Backend.Domain.ShoppingList.Models;
 
 public class DomainShoppingList
 {
-    public float TotalCost { get; set; } = 0;
-    public float TotalWeight { get; set; } = 0;
-    public List<RecipeIngredient> Ingredients { get; set;}
+    public float TotalCost { get; private set; }
+    public float TotalWeight { get; init; }
+    private IngredientPriceList PriceList { get; init; }
+    public List<ShoppingListIngredient> ShoppingListIngredients { get; init; }
 
-    public DomainShoppingList(DomainRecipe recipe)
+    public DomainShoppingList(DomainRecipe recipe, IOptions<IngredientPriceList> priceList)
     {
-        Ingredients = recipe.Ingredients;
-        var IngredientString = ShoppingListIngredientsCostDatabase.CreateIngredientCostExamples();
-        IngredientCheckCostUtility ingredientCheckCost = new IngredientCheckCostUtility(IngredientString);
-
-        foreach(var ingredient in Ingredients)
+        TotalWeight = recipe.Ingredients.Select(x => x.Weight).Sum();
+        PriceList = priceList.Value;
+        ShoppingListIngredients = new List<ShoppingListIngredient>();
+        
+        foreach (var ingredient in recipe.Ingredients)
         {
-            string ingredientName = ingredient.Name;
-            float ingredientCost = ingredientCheckCost.GetIngredientCost(ingredientName);
-            TotalCost += ingredientCost;
-            TotalWeight += recipe.PortionQuantity;
+            var price = PriceList.PriceList.FirstOrDefault(x => x.Name == ingredient.Name)?.Price;
+            if(price == null)
+            {
+                throw new DomainException($"Price not found for: {ingredient.Name}", ErrorCode.IngredientPriceNotFound);
+            }
+            ShoppingListIngredients.Add(new ShoppingListIngredient(ingredient, (float)price));
         }
-
     }
 }
 

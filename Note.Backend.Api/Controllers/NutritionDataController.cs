@@ -7,11 +7,11 @@ namespace Note.Backend.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class RecipeNutritionDataController
+public class NutritionDataController
 {
     private readonly IMediator _mediator;
 
-    public RecipeNutritionDataController(IMediator mediator)
+    public NutritionDataController(IMediator mediator)
     {
         _mediator = mediator;
     }

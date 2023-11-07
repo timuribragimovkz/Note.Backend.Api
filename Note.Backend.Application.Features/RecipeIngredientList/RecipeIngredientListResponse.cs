@@ -2,6 +2,6 @@
 
 namespace Note.Backend.Application.Features.RecipeIngredientList;
 
-public record RecipeIngredientListResponse(RecipeIngredientListResponseItem ShoppingListItem)
+public record RecipeIngredientListResponse(IEnumerable<RecipeIngredientListResponseItem> ShoppingListItems, float TotalCost, float TotalWeight)
 {
 }

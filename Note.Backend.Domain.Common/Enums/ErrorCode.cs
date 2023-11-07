@@ -8,6 +8,8 @@ public enum ErrorCode
     //888 - INFRASTRUCTURE
     IdNotProvided = 888001,
     ModelNotFound = 888002,
-    AuthorNotFound = 888003
+    AuthorNotFound = 888003,
+    
+    IngredientPriceNotFound = 880001,
     
 }

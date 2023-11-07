@@ -8,18 +8,18 @@ namespace Note.Backend.Api.Controllers;
 [ApiController]
 [Route("[controller]")]
 
-public class RecipeShoppingListController
+public class ShoppingListController
 {
     private readonly IMediator _mediator;
 
-    public RecipeShoppingListController(IMediator mediator)
+    public ShoppingListController(IMediator mediator)
     {
         _mediator = mediator;
     }
 
-    [Route("GetRecipeShoppingListById")]
+    [Route("get-recipe-shopping-list-by-recipe-id")]
     [HttpPost]
-    public async Task<RecipeIngredientListResponse> GetRecipeShoppingListById(RecipeIngredientListRequest request)
+    public async Task<RecipeIngredientListResponse> GetRecipeShoppingListByRecipeId(RecipeIngredientListRequest request)
     {
         return await _mediator.Send(request);
     }

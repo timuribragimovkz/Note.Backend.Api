@@ -5,12 +5,12 @@ namespace Note.Backend.Domain.ShoppingList.Models;
 
 public class ShoppingListIngredient
 {
-    public RecipeIngredient RecipeIngredient { get; set; }
-    public IngredientType IngredientType { get; set; }
+    public RecipeIngredient RecipeIngredient { get; init; }
+    public float IngredientPrice { get; init; }
 
-    public ShoppingListIngredient(RecipeIngredient recipeIngredient)
+    public ShoppingListIngredient(RecipeIngredient recipeIngredient, float price)
     {
         RecipeIngredient = recipeIngredient;
-        IngredientType = recipeIngredient.IngredientType;
+        IngredientPrice = price;
     }
 }

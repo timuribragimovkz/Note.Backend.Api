@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3Ah0ldV8W8BgDy1EYRbDiQCYSD5srxDkdwsOKPQhvHuw74gJe+w5MIdSX1w4HbIFyWkG7cWbD8saxP+xlJNgrA==",
+  "dgSpecHash": "PyuEfNvnEfeJvqMieFNOAKmM4xXpRHrGLdhDMqozrPd+DZh02e6mZ15dowxP3UTKStdb1407bf6kumFfyicdgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.ShoppingList\\Note.Backend.Domain.ShoppingList.csproj",
+  "projectFilePath": "/Users/timuribragimov/Desktop/sources4/Note.Backend.Api/Note.Backend.Domain.ShoppingList/Note.Backend.Domain.ShoppingList.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/Users/timuribragimov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/timuribragimov/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/timuribragimov/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/timuribragimov/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

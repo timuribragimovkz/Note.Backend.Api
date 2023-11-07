@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "clFG0E4wp/0SP3qpSQuJEKCS+NvzCrDvuyQMYDcSGEZ3N98PLFJq7HBee94HEeEg+DBchIsgv6sHEv9U3t+efA==",
+  "dgSpecHash": "twHfGqeDszPfAArt7qOlWx0+vOvrtkYNZ4uvMf+wQKaPVy0LBdQRvR6Xwh+IM3wzh8TQF+en1avWBxlk7HPXZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\Note.Backend.Api\\RecipeApi\\Note.Backend.Domain.Recipe\\Note.Backend.Domain.Recipe.csproj",
+  "projectFilePath": "/Users/timuribragimov/Desktop/sources4/Note.Backend.Api/Note.Backend.Domain.Recipe/Note.Backend.Domain.Recipe.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
